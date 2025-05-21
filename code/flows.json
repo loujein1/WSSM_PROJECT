@@ -1,0 +1,124 @@
+[
+    {
+        "id": "a62773389305f54c",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ed0914a1f0503b9a",
+        "type": "mqtt in",
+        "z": "a62773389305f54c",
+        "name": "",
+        "topic": "cam/wroom/meta",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "18c0eb2050270da1",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 140,
+        "y": 300,
+        "wires": [
+            [
+                "657fc47a9538114e"
+            ]
+        ]
+    },
+    {
+        "id": "657fc47a9538114e",
+        "type": "function",
+        "z": "a62773389305f54c",
+        "name": "function 1",
+        "func": "\nlet data = msg.payload;\n\n\nlet topic = msg.topic;\n\n\nlet mongoDocument = {\n    topic: topic,        \n    receivedAt: new Date(), \n\n   \n    ...(typeof data === 'object' && data !== null && !Array.isArray(data) ? data : { value: data })\n\n    \n};\n\n\nmsg.payload = mongoDocument;\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 300,
+        "wires": [
+            [
+                "195a5ea4412bc042"
+            ]
+        ]
+    },
+    {
+        "id": "195a5ea4412bc042",
+        "type": "mongodb4",
+        "z": "a62773389305f54c",
+        "clientNode": "367e801f79ae1b42",
+        "mode": "collection",
+        "collection": "mqtt_messages",
+        "operation": "insertOne",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "nodered_data",
+        "x": 800,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "18c0eb2050270da1",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.emqx.io",
+        "port": "1883",
+        "clientid": "esp32-wroom-cam-client",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "367e801f79ae1b42",
+        "type": "mongodb4-client",
+        "name": "My Local Mongo",
+        "protocol": "mongodb",
+        "hostname": "localhost",
+        "port": "27017",
+        "dbName": "Mongo",
+        "appName": "",
+        "authSource": "",
+        "authMechanism": "DEFAULT",
+        "tls": false,
+        "tlsCAFile": "",
+        "tlsCertificateKeyFile": "",
+        "tlsInsecure": false,
+        "connectTimeoutMS": "30000",
+        "socketTimeoutMS": "0",
+        "minPoolSize": "0",
+        "maxPoolSize": "100",
+        "maxIdleTimeMS": "0",
+        "uri": "",
+        "advanced": "{}",
+        "uriTabActive": "tab-uri-simple"
+    }
+]
