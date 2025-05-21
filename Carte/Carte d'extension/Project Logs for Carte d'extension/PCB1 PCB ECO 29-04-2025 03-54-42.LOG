@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=GND Pin=D1-K
+Added Component: Designator=D1(LED)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=D1-K

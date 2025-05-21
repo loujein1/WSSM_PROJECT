@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=+12 Pin=D1-A
+Removed Pin From Net: NetName=+12 Pin=R-1
+Removed Pin From Net: NetName=GND Pin=R-2
+Added Component: Designator=R(RESISTOR)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "R"; Value = "1kohms"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+12 Pin=R-1
+Added Pin To Net: NetName=NetD1_A Pin=D1-A
+Added Pin To Net: NetName=NetD1_A Pin=R-2
+Added Net: Name=NetD1_A
+Added Room: Name=Sheet1

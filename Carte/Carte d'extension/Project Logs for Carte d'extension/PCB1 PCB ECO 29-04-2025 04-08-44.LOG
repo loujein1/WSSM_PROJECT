@@ -1,0 +1,35 @@
+Removed Pin From Net: NetName=UOT Pin=U0-9
+Removed Pin From Net: NetName=UOR Pin=U0-10
+Removed Pin From Net: NetName=CS Pin=U0-11
+Removed Pin From Net: NetName=SCK Pin=U0-12
+Removed Pin From Net: NetName=MISO Pin=U0-13
+Removed Pin From Net: NetName=TX_GSM Pin=U0-15
+Removed Pin From Net: NetName=RX_GSM Pin=U0-16
+Removed Pin From Net: NetName=MOSI Pin=U0-18
+Removed Pin From Net: NetName=GND Pin=U0-35
+Removed Pin From Net: NetName=5V Pin=U0-36
+Removed Member From Class: ClassName=Sheet1 Member=U0
+Added Component: Designator=D1(LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U1(ESP32 DEVKIT V1 (36 pins))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/ESP32-DEVKIT-V1/Do+it/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Do it"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ESP32-DEVKIT-V1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ESP32-DEVKIT-V1/Do+it/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=D1-K
+Added Pin To Net: NetName=UOT Pin=U1-9
+Added Pin To Net: NetName=UOR Pin=U1-10
+Added Pin To Net: NetName=CS Pin=U1-11
+Added Pin To Net: NetName=SCK Pin=U1-12
+Added Pin To Net: NetName=MISO Pin=U1-13
+Added Pin To Net: NetName=TX_GSM Pin=U1-15
+Added Pin To Net: NetName=RX_GSM Pin=U1-16
+Added Pin To Net: NetName=MOSI Pin=U1-18
+Added Pin To Net: NetName=GND Pin=U1-35
+Added Pin To Net: NetName=5V Pin=U1-36
+Added Member To Class: ClassName=Sheet1 Member=Component D1 LED
+Added Member To Class: ClassName=Sheet1 Member=Component U1 ESP32 DEVKIT V1 (36 pins)
+Added Room: Name=Sheet1

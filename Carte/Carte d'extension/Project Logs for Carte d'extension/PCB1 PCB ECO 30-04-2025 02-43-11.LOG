@@ -1,0 +1,7 @@
+Added Component: Designator=V2(PCBComponent_1)
+Add component. Clean all parameters for all variants
+Added Component: Designator=V3(PCBComponent_1)
+Add component. Clean all parameters for all variants
+Added Member To Class: ClassName=Sheet1 Member=Component C1 capacitor
+Added Member To Class: ClassName=Sheet1 Member=Component V2 conector 2
+Added Member To Class: ClassName=Sheet1 Member=Component V3 conector 2

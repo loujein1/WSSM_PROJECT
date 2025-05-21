@@ -1,0 +1,8 @@
+Change Component Footprint: Designator=R Old Footprint=AXIAL-0.3 New Footprint=RESISTOR
+Change Component Comment : Designator=R Old Comment=Res1 New Comment=resistor
+Change component parameters: Designator = "R"; Footprint = "RESISTOR"; UniqueID = "\QZAXMHAX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "R"; Value = "1kohms"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+12 Pin=D1-A
+Added Pin To Net: NetName=GND Pin=R-2
+Added Room: Name=Sheet1

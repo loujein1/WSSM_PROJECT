@@ -1,0 +1,121 @@
+Added Component: Designator=C1(CAPACITOR)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Cap en uF ou nF"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C2(CAPACITOR)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Cap en uF ou nF"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C3(CAPACITOR)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Cap en uF ou nF"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C4(CAPACITOR)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Cap en uF ou nF"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C5(condensateur chimique 470f 16v -)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "470µF"; VariantName = "[No Variations]"
+Added Component: Designator=C6(condensateur chimique 470f 16v -)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "470µF"; VariantName = "[No Variations]"
+Added Component: Designator=D1(LED)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J1(ESP32-CAM)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/ESP32-CAM/AI-Thinker/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "AI-Thinker"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ESP32-CAM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ESP32-CAM/AI-Thinker/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R0(Module LM2596)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R1(Module LM2596)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S1(PCBComponent_1)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U0(ESP32 DEVKIT V1 (36 pins))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/ESP32-DEVKIT-V1/Do+it/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Do it"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ESP32-DEVKIT-V1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ESP32-DEVKIT-V1/Do+it/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U2(SIM800L)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U3(SULLINS_PPTC061LFBN-RC - duplicate)
+Add component. Clean all parameters for all variants
+Added Component: Designator=V1(bornier a visser 2 poles)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Parameter 1"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=GND Pin=D1-K
+Added Pin To Net: NetName=GND Pin=J1-1
+Added Pin To Net: NetName=UOT Pin=J1-2
+Added Pin To Net: NetName=UOR Pin=J1-3
+Added Pin To Net: NetName=GND Pin=J1-5
+Added Pin To Net: NetName=GND Pin=J1-10
+Added Pin To Net: NetName=GND Pin=R0-2
+Added Pin To Net: NetName=GND Pin=R0-4
+Added Pin To Net: NetName=GND Pin=R1-2
+Added Pin To Net: NetName=GND Pin=R1-4
+Added Pin To Net: NetName=UOT Pin=U0-9
+Added Pin To Net: NetName=UOR Pin=U0-10
+Added Pin To Net: NetName=CS Pin=U0-11
+Added Pin To Net: NetName=SCK Pin=U0-12
+Added Pin To Net: NetName=MISO Pin=U0-13
+Added Pin To Net: NetName=MOSI Pin=U0-18
+Added Pin To Net: NetName=GND Pin=U0-35
+Added Pin To Net: NetName=GND Pin=U2-6
+Added Pin To Net: NetName=GND Pin=U3-1
+Added Pin To Net: NetName=MISO Pin=U3-3
+Added Pin To Net: NetName=MOSI Pin=U3-4
+Added Pin To Net: NetName=SCK Pin=U3-5
+Added Pin To Net: NetName=CS Pin=U3-6
+Added Pin To Net: NetName=GND Pin=V1-1
+Added Pin To Net: NetName=+12 Pin=R0-1
+Added Pin To Net: NetName=+12 Pin=R1-1
+Added Pin To Net: NetName=+12 Pin=S1-2
+Added Net: Name=+12
+Added Pin To Net: NetName=4.1V Pin=C1-1
+Added Pin To Net: NetName=4.1V Pin=C5-2
+Added Pin To Net: NetName=4.1V Pin=R1-3
+Added Pin To Net: NetName=4.1V Pin=U2-2
+Added Net: Name=4.1V
+Added Pin To Net: NetName=5V Pin=C2-1
+Added Pin To Net: NetName=5V Pin=C3-1
+Added Pin To Net: NetName=5V Pin=C4-1
+Added Pin To Net: NetName=5V Pin=C6-2
+Added Pin To Net: NetName=5V Pin=J1-9
+Added Pin To Net: NetName=5V Pin=R0-3
+Added Pin To Net: NetName=5V Pin=U0-36
+Added Pin To Net: NetName=5V Pin=U3-2
+Added Net: Name=5V
+Added Pin To Net: NetName=NetS1_1 Pin=S1-1
+Added Pin To Net: NetName=NetS1_1 Pin=V1-2
+Added Net: Name=NetS1_1
+Added Pin To Net: NetName=RX_GSM Pin=U0-16
+Added Pin To Net: NetName=RX_GSM Pin=U2-4
+Added Net: Name=RX_GSM
+Added Pin To Net: NetName=TX_GSM Pin=U0-15
+Added Pin To Net: NetName=TX_GSM Pin=U2-5
+Added Net: Name=TX_GSM
+Added Member To Class: ClassName=Sheet1 Member=Component C1 capacitor
+Added Member To Class: ClassName=Sheet1 Member=Component C2 capacitor
+Added Member To Class: ClassName=Sheet1 Member=Component C3 capacitor
+Added Member To Class: ClassName=Sheet1 Member=Component C4 capacitor
+Added Member To Class: ClassName=Sheet1 Member=Component C5 condensateur chimique_470uF
+Added Member To Class: ClassName=Sheet1 Member=Component C6 condensateur chimique_470uF
+Added Member To Class: ClassName=Sheet1 Member=Component D1 LED
+Added Member To Class: ClassName=Sheet1 Member=Component J1 ESP32-CAM
+Added Member To Class: ClassName=Sheet1 Member=Component R0 Module LM2596
+Added Member To Class: ClassName=Sheet1 Member=Component R1 Module LM2596
+Added Member To Class: ClassName=Sheet1 Member=Component S1 KCD11
+Added Member To Class: ClassName=Sheet1 Member=Component U0 ESP32 DEVKIT V1 (36 pins)
+Added Member To Class: ClassName=Sheet1 Member=Component U2 Module SIM800L
+Added Member To Class: ClassName=Sheet1 Member=Component U3 SD card
+Added Member To Class: ClassName=Sheet1 Member=Component V1 bornier a visser 2 poles
